@@ -8,6 +8,7 @@ public class TestJdbc {
         String jdbcUrl = "jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false";
         String user = "hbstudent";
         String pass = "hbstudent";
+
         try {
             System.out.println("Connecting to database: "+ jdbcUrl);
 
